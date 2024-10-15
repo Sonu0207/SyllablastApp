@@ -29,7 +29,8 @@ export default function Home() {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-8">
         <h1 className="text-8xl font-bold mb-8 text-gray-800">Syllablast</h1>
-        <h2 className="text-2xl font-bold mb-8 text-gray-800">Choose Your Puzzle Configuration</h2>
+        <h2 className="text-1xl font-bold mb-8 text-gray-800">By Sonu Tejwani</h1>
+        <h3 className="text-2xl font-bold mb-8 text-gray-800">Choose Your Puzzle Configuration</h2>
         <div className="flex flex-col space-y-4">
           {[config1, config2, config3].map((config) => (
             <button 
